@@ -1,0 +1,24 @@
+
+.header {
+    background-color: #252525;
+    color: white;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header nav {
+    display: flex;
+    column-gap: 20px;
+}

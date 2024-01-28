@@ -1,0 +1,26 @@
+
+
+.detail-img {
+    width: 100%;
+}
+
+.detail-btn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 0.5px solid black;
+    transition: .3s;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.detail-btn:hover {
+    background-color: white;
+    color: #232323;
+}
+
+.detail-btn:active {
+    transform: scale(1.12);
+    transition: 0s;
+}
+

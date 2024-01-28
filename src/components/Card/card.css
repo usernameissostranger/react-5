@@ -1,0 +1,55 @@
+* {
+    font-family: 'Gill Sans MT';
+}
+
+
+.card-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-img:hover {
+    object-fit: scale-down;
+}
+
+.card {
+    padding: 10px;
+    border: 0.5px solid #232323;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-btn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 0.5px solid black;
+    border-radius: 2px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background-color: white;
+    color: #232323;
+}
+
+.card-btn:active {
+    transform: scale(1.12);
+    transition: 0s;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
